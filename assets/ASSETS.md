@@ -1,5 +1,11 @@
-# 99 Reasons concept assets
+# 99 Reasons — asset map
 
-`coffee.svg`, `brunch.svg`, `cocktail.svg` are original illustrations included for the independent demo. `favicon.svg` is a concept mark, not the venue's official logo. **No actual venue photography is currently included.**
+Active locally hosted, requester-supplied photographs:
+- `coffee-and-bakes.png` — day hero, coffee card, daytime scene.
+- `venue-interior.png` — night hero, evening scene.
+- `food-special.png` — food card.
+- `whisky-night-poster.png` — promotional poster in the events card. Dates, prices and tickets shown on a poster must be reconfirmed with the venue.
 
-Before a client-facing official version, request approved photography of: venue interior, coffee, one actual current brunch item, actual evening drinks, and (optional) storefront. Details, suggested filenames, usage rights and HTML/JS replacement instructions are in `../README.md`. Do not scrape or hotlink Instagram or Google Maps photographs without permission.
+`favicon.svg` is an unofficial concept mark. `coffee.svg`, `brunch.svg` and `cocktail.svg` are older optional illustrations and are not referenced by the active webpage.
+
+Images are local files, not third-party URLs. Permission to use requester-supplied photographs in an official public brand website has **not** been verified. See `../README.md`.
