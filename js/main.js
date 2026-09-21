@@ -53,7 +53,7 @@ if (menuButton && mobileNav) {
   });
 }
 
-// Purposeful, optional day-to-night art direction for the hero. Does not change real operating hours.
+// Day-to-night hero: swap between the supplied coffee and interior photographs.
 const moodSwitch = document.getElementById('mood-switch');
 const switchLabel = document.getElementById('switch-label');
 const heroImage = document.getElementById('hero-image');
@@ -66,9 +66,9 @@ if (moodSwitch && switchLabel && heroImage && heroImageCaption && heroDescriptio
     moodSwitch.setAttribute('aria-pressed', String(night));
     moodSwitch.setAttribute('aria-label', night ? 'Switch to daytime café view' : 'Switch to evening bar view');
     switchLabel.textContent = night ? 'BACK TO DAYTIME?' : 'AFTER DARK?';
-    heroImage.src = night ? 'assets/cocktail.svg' : 'assets/coffee.svg';
-    heroImage.alt = night ? 'Illustration of two drinks at a bar' : 'Illustration of coffee in a ceramic cup';
-    heroImageCaption.textContent = night ? '02 — ONE MORE ROUND' : '01 — FIRST CUP';
+    heroImage.src = night ? 'assets/venue-interior.png' : 'assets/coffee-and-bakes.png';
+    heroImage.alt = night ? 'Warmly lit interior of 99 Reasons with guests seated at tables' : 'Coffee, cake and bakes at 99 Reasons';
+    heroImageCaption.textContent = night ? '02 — STAY A WHILE' : '01 — FIRST CUP';
     heroDescription.textContent = night
       ? 'The last coffee was hours ago. The conversation is still going. Make an evening of it on Manchester Road.'
       : 'A coffee that becomes a catch-up. A catch-up that becomes another round. Meet us on Manchester Road.';
